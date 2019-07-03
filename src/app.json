@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/video/main",
+    "pages/live-detail/main",
+    "pages/video-detail/main",
+    "pages/coupons/main",
+    "pages/series-detail/main",
+    "pages/series/main",
+    "pages/meeting-live/main",
+    "pages/vip-live/main",
+    "pages/login/main",
+    "pages/personalCenter/main",
+    "pages/collection/main",
+    "pages/order/main",
+    "pages/packet/main",
+    "pages/order/all-order/main",
+    "pages/web-view/main",
+    "pages/live-today-more/main",
+    "pages/high-quality-more/main",
+    "pages/video-recommend-more/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9ea9c5",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#0078ff",
+    "borderStyle": "white",
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/homeActive.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/personalCenter/main",
+      "iconPath": "static/tabs/my.png",
+      "selectedIconPath": "static/tabs/myActive.png"
+    }],
+    "position": "bottom"
+  }
+}
